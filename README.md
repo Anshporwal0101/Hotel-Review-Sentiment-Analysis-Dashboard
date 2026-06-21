@@ -1,19 +1,21 @@
-# 🏨 Hotel Review Sentiment Analysis Dashboard
+# 🏨 Hotel Review Sentiment Analysis Dashboard (Excel)
 
 ## 📖 Overview
 
-This project is an interactive **Power BI Dashboard** designed to analyze hotel customer reviews, ratings, complaint categories, and sentiment trends. The dashboard provides actionable insights that help hotel management improve customer satisfaction and enhance service quality.
+This project showcases an interactive **Hotel Review Sentiment Analysis Dashboard** developed entirely in **Microsoft Excel**. The dashboard analyzes customer reviews, hotel ratings, complaint categories, and sentiment trends to provide actionable insights into customer satisfaction and hotel performance.
+
+Using Excel's analytical capabilities such as Pivot Tables, Pivot Charts, Slicers, and KPI Cards, raw review data is transformed into meaningful visualizations that support data-driven decision-making in the hospitality industry.
 
 ---
 
 ## 🎯 Project Objectives
 
 - Analyze customer sentiments from hotel reviews.
-- Identify patterns in customer feedback.
-- Monitor hotel performance across key service dimensions.
+- Identify trends and patterns in customer feedback.
+- Monitor hotel performance across multiple rating categories.
 - Track monthly review and sentiment trends.
-- Highlight top-performing hotels based on ratings.
-- Identify major complaint categories affecting customer experience.
+- Highlight top-performing hotels.
+- Identify key complaint categories affecting customer satisfaction.
 
 ---
 
@@ -36,32 +38,30 @@ This project is an interactive **Power BI Dashboard** designed to analyze hotel 
 
 - Hotel Facilities Rating Analysis
 - Sentiment Distribution
-- Rating Analysis
+- Rating Analysis by Category
 - Monthly Review Trend
 - Monthly Sentiment Trend
-- Complaint Analysis
+- Complaint Category Analysis
 - Top 10 Hotels Ranking
-- Interactive Slicers for:
-  - Hotel Category
-  - Sentiment Type
-  - Month
-  - Year
+- Interactive Slicers for Data Filtering
+
+### Filters Available
+
+- Hotel Category
+- Sentiment Type
+- Month
+- Year
 
 ---
 
 ## 🔍 Key Insights
 
-✅ 80.93% of customer reviews are positive.
-
-✅ Hotel ratings consistently exceed 4.0 across major service areas.
-
-✅ August recorded the highest review volume.
-
-✅ Service-related complaints are the most common issue reported.
-
-✅ Top hotels maintain ratings close to 5.0.
-
-✅ Negative sentiment remains low at only 19.07%.
+- 😊 80.93% of customer reviews are positive.
+- ⭐ Hotel ratings consistently exceed 4.0 across key service dimensions.
+- 📅 August recorded the highest review volume.
+- 🚨 Service-related complaints are the most common issue reported.
+- 🏨 Top-performing hotels maintain ratings close to 5.0.
+- 📉 Negative sentiment remains low at only 19.07%.
 
 ---
 
@@ -72,7 +72,7 @@ The dataset contains:
 - Hotel ID
 - Hotel Category
 - Review Date
-- Year & Month
+- Month & Year
 - Room Rating
 - Service Rating
 - Cleanliness Rating
@@ -86,23 +86,42 @@ The dataset contains:
 
 ## 🛠 Tools & Technologies Used
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Data%20Analytics-4285F4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DAX-FF6F00?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Business%20Intelligence-6A1B9A?style=for-the-badge"/>
-</p>
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Conditional Formatting
+- KPI Cards
+- Data Cleaning
+- Data Analysis
+- Dashboard Design
+- Data Visualization
 
 ---
 
-## 📸 Dashboard Preview
+## 📋 Project Workflow
 
-### Main Dashboard
+### 1. Data Collection & Preparation
+Collected and organized hotel review data containing ratings, customer feedback, complaint categories, and sentiment labels.
 
-![Dashboard Preview](images/dashboard.png)
+### 2. Data Analysis
+Used Pivot Tables to summarize customer sentiments, ratings, complaints, and review trends.
 
-> Replace the image path with your uploaded dashboard screenshot.
+### 3. Dashboard Development
+Created an interactive Excel dashboard using Pivot Charts, KPI Cards, and Slicers to visualize insights and enable dynamic filtering.
+
+---
+
+## 📸 Project Screenshots
+
+### 📄 Dataset Preparation
+Raw hotel review dataset used for analysis, containing customer ratings, reviews, complaint categories, and sentiment classifications.
+
+### 📊 Pivot Table Analysis
+Pivot Tables used to summarize and analyze customer sentiments, ratings, complaints, and hotel performance metrics.
+
+### 📈 Interactive Dashboard
+Final Excel dashboard showcasing KPIs, sentiment analysis, review trends, complaint analysis, and hotel rankings.
 
 ---
 
@@ -111,10 +130,10 @@ The dataset contains:
 This dashboard helps hospitality businesses:
 
 - Improve customer satisfaction.
-- Monitor service performance.
+- Monitor service quality and performance.
 - Identify recurring customer complaints.
 - Track sentiment trends over time.
-- Make data-driven operational decisions.
+- Support data-driven business decisions.
 
 ---
 
@@ -126,11 +145,16 @@ Hotel-Review-Sentiment-Analysis/
 ├── Dataset/
 │   └── Hotel_Reviews.xlsx
 │
+├── Analysis/
+│   └── Pivot_Tables.xlsx
+│
 ├── Dashboard/
-│   └── Hotel_Sentiment_Dashboard.pbix
+│   └── Hotel_Review_Dashboard.xlsx
 │
 ├── Images/
-│   └── dashboard.png
+│   ├── Dataset.png
+│   ├── PivotTables.png
+│   └── Dashboard.png
 │
 └── README.md
 ```
@@ -139,13 +163,15 @@ Hotel-Review-Sentiment-Analysis/
 
 ## 🎓 Skills Demonstrated
 
+- Microsoft Excel
 - Data Cleaning
-- Data Transformation
-- Sentiment Analysis
-- Data Modeling
-- DAX Measures
-- Power BI Dashboard Development
+- Data Analysis
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
 - Data Visualization
+- KPI Reporting
+- Sentiment Analysis
 - Business Intelligence
 - Insight Generation
 
@@ -157,7 +183,7 @@ Hotel-Review-Sentiment-Analysis/
 
 🎓 MCA (AI & Data Science)  
 📊 Data Analytics & Business Intelligence Enthusiast  
-🚀 Passionate about transforming raw data into actionable insights
+🚀 Passionate about transforming raw data into actionable insights through analytics and visualization.
 
 ---
 
